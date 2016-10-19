@@ -1,5 +1,5 @@
 %% TD1
-% Problem 6
+% Problem 20
 
 %% Antoine MERLET, Condorcet
 
@@ -9,11 +9,6 @@ close all; % Close all figure windows except those created byimtool.
 imtool close all; % Close all figure windows created by imtool.
 workspace; % Make sure the workspace panel is showing.
 
-%% Problem 6
+%% Problem 20
 
-syms n r
-r=0.5;
-lim = 1/(1-r)
-double(symsum(r^n, n, 0, 10))
-double(symsum(r^n, n, 0, 50))
-double(symsum(r^n, n, 0, 100))
+displayRGB('Lenna.jpg');
